@@ -39,3 +39,7 @@ body{
 .appear{
     visibility: visible;
 }
+
+img{
+    max-height: 200px;
+}
