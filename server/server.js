@@ -35,7 +35,7 @@ app.get('/warnin3', (req,res) => {
     })
 app.get('/warnin4', (req,res) => {
     try{
-        rollbar.log('Please send help:(')
+        rollbar.warning('Please send help:(')
         res.status(200).send("I dont know why I thought that would've Worked...")
     } catch(err) {
         console.log(err)

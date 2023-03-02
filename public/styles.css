@@ -1,0 +1,15 @@
+#title{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    height: 15vh;
+}
+#messageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(171, 242, 245);
+    height: 15vh;
+}
